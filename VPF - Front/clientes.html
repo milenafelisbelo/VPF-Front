@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPlast</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+
+<body>
+    <header>
+        <h1>IPlast</h1>
+        <div class="container">
+            <a href="funcionarios.html">Funcionários</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="home.html">Home</a>
+        </div>
+    </header>
+
+    <main>
+        <container class="cadastro">
+            <button id="abrirModal">Novo Cliente</button>
+        </container>
+        <div id="meuModal" class="modal">
+            <div class="modal-conteudo">
+                <span class="fechar">&times;</span>
+                <h3>Cadastre um Cliente</h3>
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="CPF">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Telefone">
+                <input type="text" placeholder="Logradouro">
+                <button>Cadastrar</button>
+            </div>
+        </div>
+
+        <container class="apresentarclientes">
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                    <th>Logradouro</th>
+                    <th>Ações</th>
+                </tr>
+                <tr>
+                    <td>Duda</td>
+                    <td>222.222.222-00</td>
+                    <td>duda@email.com</td>
+                    <td>(11) 91234-5678</td>
+                    <td>Rua das Rosas, 456</td>
+                    <td>
+                        <a href="editar.html">Editar</a>
+                        <a href="excluir.html">Excluir</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>456.789.123-00</td>
+                    <td>jao@email.com</td>
+                    <td>(11) 99876-5432</td>
+                    <td>Rua dos Cravos, 789</td>
+                    <td>
+                        <a href="editar.html">Editar</a>
+                        <a href="excluir.html">Excluir</a>
+                    </td>
+                </tr>
+            </table>
+        </container>
+    </main>
+    <footer>
+        <p>Desenvolvido por: Milena</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

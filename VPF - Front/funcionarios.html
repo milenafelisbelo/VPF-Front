@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPlast</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <header>
+        <h1>IPlast</h1>
+        <div class="container">
+            <a href="produtos.html">Produtos</a>
+            <a href="clientes.html">Clientes</a>
+            <a href="home.html">Home</a>
+        </div>
+    </header>
+    <main>
+        <button id="abrirModal">Novo Funcionário</button>
+        <div id="meuModal" class="modal">
+            <div class="modal-conteudo">
+                <span class="fechar">&times;</span>
+                <h3>Cadastre um Funcionário</h3>
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="CPF">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Telefone">
+                <input type="text" placeholder="Logradouro">
+                <button>Cadastrar</button>
+            </div>
+        </div>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Logradouro</th>
+                <th>Ações</th>
+            </tr>
+            <tr>
+                <td>Lucas</td>
+                <td>123.456.789-00</td>
+                <td>lucas@email.com</td>
+                <td>(11) 99999-9999</td>
+                <td>Liberdade, 123</td>
+                <td>
+                    <a href="#">Editar</a> |
+                    <a href="#">Excluir</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Fabio</td>
+                <td>987.654.321-00</td>
+                <td>fabio@email.com</td>
+                <td>(11) 98888-8888</td>
+                <td>Liberdade, 456</td>
+                <td>
+                    <a href="#">Editar</a> |
+                    <a href="#">Excluir</a>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p>Desenvolvido por: Milena</p>
+    </footer>
+</body>
+</html>
